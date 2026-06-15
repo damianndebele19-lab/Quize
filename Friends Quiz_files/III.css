@@ -1,0 +1,63 @@
+/* friends.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.question-block {
+  margin: 15px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#finish-btn {
+  margin-top: 20px;
+  background: #27ae60;
+}
+
+#prize {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: purple;
+}
+
